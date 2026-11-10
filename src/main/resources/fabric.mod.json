@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "autototem",
+  "version": "${version}",
+  "name": "AutoTotem",
+  "description": "Totemi 3. hotbar slotuna getirir ve offhand'e alir.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.autototem.AutoTotemClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
